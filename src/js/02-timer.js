@@ -1,3 +1,5 @@
+// Cerinta o regasesc in fisierul cerinte_teme
+
 import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 import notiflix from 'notiflix';
