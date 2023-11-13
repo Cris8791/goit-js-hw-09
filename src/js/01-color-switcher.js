@@ -15,7 +15,7 @@ function startColorChange() {
   // activez butonul "Stop"
   document.querySelector('[data-stop]').disabled = false;
 
-  // Schimbă culoarea de fundal o dată pe secundă
+  // Schimb culoarea o data pe secunda
   intervalId = setInterval(() => {
     document.body.style.backgroundColor = getRandomHexColor();
   }, 1000);
